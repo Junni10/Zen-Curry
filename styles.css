@@ -1,0 +1,167 @@
+/* My custom CSS */
+
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Chango&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Sancreek&family=Solway:wght@300;400;500;700;800&display=swap');
+
+
+h1 {
+    background-color: #FFAE59;
+    text-align: center;
+    color: #FFFCE7;
+    font-size: 16px;
+    padding: 4px;
+    margin-bottom: 0px;
+
+    
+
+    }
+
+awing {
+    max-width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+
+
+
+nav {
+      margin: 0;
+      padding: 0;
+    
+}
+
+
+img {
+      max-width: 100%;
+    margin-top: 0px;
+    
+    
+    } 
+
+/* container */
+.responsive-two-columns {
+    display:flex;
+    flex-wrap:wrap;
+    background-color: #FFAD59;
+    margin-top: 20px;
+    
+}
+
+/* columns */
+.responsive-two-columns > * {
+    width:100%;
+    padding:30px;
+    font-family: "Solway";
+    color: #FFFCE7;
+    font-size-adjust: auto;
+   
+}
+
+/* phone breakpoint */
+@media (min-width:768px) {
+    .responsive-two-columns > * {
+        width:50%;
+        padding:30px;
+        font-size: 30px;
+        font-size-adjust: auto;
+
+    }
+}
+
+
+h2 {
+  margin: 0px;
+  font-family: "Chango";
+    color: #FFAD59;
+}
+
+/* container */
+.responsive-three-columns {
+    display:flex;
+    flex-wrap:wrap;
+    width:70%;
+}
+
+/* columns */
+.responsive-three-columns > * {
+    width:100%;
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .responsive-three-columns > * {
+        width:calc(100% / 3);
+    }
+}
+
+p {
+    width: 100%;
+    font-family: "Solway";
+    background-color: #FFAD59;
+    color: #FFFCE7;
+    padding: 10px;
+    margin-top: 20px;
+    
+  
+   
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    font-family: "Solway";
+    
+
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #707070;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #E39D51;
+}
+
+iframe {
+    width: 107%;
+    margin-left: 0px;
+    
+}
+
+body {
+    background-color:#FFFCE7;
+    margin: 0
+
+}
+
+.row {
+    padding: 15px;
+    height: 300px;
+    width: 100%;
+}
+
+.col {
+    width:100%;
+    
+}
+
+footer {
+    
+    background-color: #FFAE59;
+    
+}
+
